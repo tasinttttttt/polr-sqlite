@@ -1,0 +1,51 @@
+# System files
+# ------------
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+
+# Runtime data
+# ---------------
+pids
+*.pid
+*.seed
+
+# PHP
+# ---------------
+php-error.log*
+*.php_cs.cache
+
+## Workflow & Editor
+# ---------------
+.vscode
+.eslintcache
+.stylelintcache
+*.sublime-project
+*.sublime-workspace
+stats.json
+
+# Node
+# ---------------
+.lock-wscript
+node_modules
+.tmp
+logs
+*.log
+npm-debug.log*
+
+# Custom
+# ---------------
+conf
+www

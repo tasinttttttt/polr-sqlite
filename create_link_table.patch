@@ -1,0 +1,15 @@
+--- database/migrations/2015_11_04_015813_create_link_table.php.old	2020-03-29 17:18:09.000000000 +0200
++++ database/migrations/2015_11_04_015813_create_link_table.php	2020-03-29 17:18:04.000000000 +0200
+@@ -22,9 +22,9 @@
+             $table->string('short_url');
+             $table->longText('long_url');
+             $table->string('ip');
+-            $table->string('creator');
+-            $table->string('clicks')->default(0);
+-            $table->string('secret_key');
++            $table->string('creator')->nullable();
++            $table->string('clicks')->nullable()->default(0);
++            $table->string('secret_key')->nullable();
+
+             $table->boolean('is_disabled')->default(0);
+             $table->boolean('is_custom')->default(0);
